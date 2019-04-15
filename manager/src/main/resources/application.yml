@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: manager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 944542
+    database-name: reservation
+    host: localhost
+    url: jdbc:mysql://127.0.0.1:3306/reservation?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 3000
