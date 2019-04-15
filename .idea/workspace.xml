@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d286473-b8bb-4875-b91c-62b9d15c91bd" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/filesystem/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/pojo/target/" />
+    <ignored path="$PROJECT_DIR$/manager/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/FilesystemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clz</find>
+      <find>fields</find>
+      <find>var6</find>
+      <find>token</find>
+      <find>uuid</find>
+      <find>need</find>
+      <find>buserlogin</find>
+      <find>user.get</find>
+      <find>selectcount</find>
+      <find>selectnopa</find>
+      <find>filename</find>
+      <find>deatil</find>
+      <find>detail</find>
+      <find>track</find>
+      <find>redis</find>
+      <find>delete</find>
+      <find>getlis</find>
+      <find>long</find>
+      <find>LONG</find>
+      <find>add</find>
+      <find>beforeadd</find>
+      <find>hospitalManager</find>
+      <find>getlist</find>
+      <find>detailUsedByBase</find>
+      <find>deta</find>
+      <find>getselect</find>
+      <find>list</find>
+      <find>insert</find>
+      <find>getin</find>
+      <find>getInsertOne</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/ices/pojo/Patient.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/ices/pojo/User.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/code/AddressDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/code/DepartmentTypeDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/CalendarDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/CalendarProvider.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/DoctorDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/HospitalDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/HospitalProvider.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/info/InfoDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/info/InfoProvider.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/reservation/ReservationDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/reservation/ReservationProvider.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/BuserDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/MenuDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/RoleDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/RoleMenuDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/PatientDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/interceptor/BaseInterceptor.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/interceptor/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/code/AddressService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/code/DepartmentTypeService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/CalendarService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/DoctorService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/HospitalService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/info/InfoService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/reservation/ReservationService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/BuserService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/MenuService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/RoleService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/DBService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/PatientService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/UserService.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/code/AddressController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/code/DepartmentTypeController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/CalendarController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/DoctorController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/info/InfoController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/reservation/ReservationController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/DBController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/PatientController.java" />
+        <option value="$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/UserController.java" />
+        <option value="$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/component/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/controller/FastDFSController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.0\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-40" />
+    <option name="y" value="155" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reservation-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555320868769" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.19310345" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration name="PwdUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ices.reservation.common.utils.PwdUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ices.reservation.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ices.reservation.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ices.reservation.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.ices.reservation.manager.ManagerApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ices.reservation.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ices.reservation.manager.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="JUnit.ManagerApplicationTests.test1" />
+        <item itemvalue="Application.PwdUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d286473-b8bb-4875-b91c-62b9d15c91bd" name="Default Changelist" comment="" />
+      <created>1551879328148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551879328148</updated>
+      <workItem from="1551879332610" duration="1649000" />
+      <workItem from="1551881199612" duration="1874000" />
+      <workItem from="1551931325873" duration="601000" />
+      <workItem from="1551931950398" duration="650000" />
+      <workItem from="1552282747403" duration="5497000" />
+      <workItem from="1552293363524" duration="7000" />
+      <workItem from="1552295261216" duration="1057000" />
+      <workItem from="1552308165234" duration="3694000" />
+      <workItem from="1552406390806" duration="70000" />
+      <workItem from="1552535479671" duration="3000" />
+      <workItem from="1552552328551" duration="15000" />
+      <workItem from="1552552351555" duration="5000" />
+      <workItem from="1552572492297" duration="9000" />
+      <workItem from="1552754622371" duration="2712000" />
+      <workItem from="1552797071085" duration="1460000" />
+      <workItem from="1552879103697" duration="19485000" />
+      <workItem from="1552970426104" duration="7925000" />
+      <workItem from="1553010851339" duration="1997000" />
+      <workItem from="1553055707706" duration="1351000" />
+      <workItem from="1553091442202" duration="440000" />
+      <workItem from="1553146376783" duration="2086000" />
+      <workItem from="1553241055426" duration="1719000" />
+      <workItem from="1553265236002" duration="2589000" />
+      <workItem from="1553316777736" duration="609000" />
+      <workItem from="1553402075920" duration="198000" />
+      <workItem from="1553404385527" duration="6398000" />
+      <workItem from="1553481362841" duration="47000" />
+      <workItem from="1553482930312" duration="1812000" />
+      <workItem from="1553496000477" duration="27000" />
+      <workItem from="1553501768933" duration="46000" />
+      <workItem from="1553501851848" duration="2670000" />
+      <workItem from="1553522266373" duration="1682000" />
+      <workItem from="1553563580333" duration="4000" />
+      <workItem from="1553572259583" duration="3250000" />
+      <workItem from="1553610648949" duration="1986000" />
+      <workItem from="1553659053710" duration="4541000" />
+      <workItem from="1553676248981" duration="3203000" />
+      <workItem from="1553736561093" duration="4825000" />
+      <workItem from="1553753393616" duration="10000" />
+      <workItem from="1553786128811" duration="2140000" />
+      <workItem from="1553820807961" duration="19000" />
+      <workItem from="1553850108999" duration="276000" />
+      <workItem from="1553850821439" duration="230000" />
+      <workItem from="1553882680353" duration="605000" />
+      <workItem from="1553924835311" duration="2231000" />
+      <workItem from="1553960216879" duration="2424000" />
+      <workItem from="1554008949191" duration="62000" />
+      <workItem from="1554009042232" duration="2625000" />
+      <workItem from="1554040768666" duration="4403000" />
+      <workItem from="1554082589929" duration="1435000" />
+      <workItem from="1554084095223" duration="31000" />
+      <workItem from="1554126392061" duration="846000" />
+      <workItem from="1554166962172" duration="4000" />
+      <workItem from="1554475849890" duration="2225000" />
+      <workItem from="1554517019248" duration="6369000" />
+      <workItem from="1554527032541" duration="1143000" />
+      <workItem from="1554619400468" duration="4847000" />
+      <workItem from="1554691224637" duration="1801000" />
+      <workItem from="1554708943076" duration="1249000" />
+      <workItem from="1555157109258" duration="3814000" />
+      <workItem from="1555225270364" duration="4048000" />
+      <workItem from="1555291476451" duration="1860000" />
+      <workItem from="1555295443469" duration="1819000" />
+      <workItem from="1555313031970" duration="463000" />
+      <workItem from="1555314322015" duration="220000" />
+      <workItem from="1555314554432" duration="3387000" />
+      <workItem from="1555320622649" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ManagerApplicationTests_test1 - 2019.03.25 at 16h 29m 24s.xml">
+      <configuration name="ManagerApplicationTests.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerApplicationTests_test1 - 2019.03.25 at 16h 30m 50s.xml">
+      <configuration name="ManagerApplicationTests.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerApplicationTests_test1 - 2019.03.25 at 16h 31m 57s.xml">
+      <configuration name="ManagerApplicationTests.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerApplicationTests_test1 - 2019.03.25 at 22h 01m 59s.xml">
+      <configuration name="ManagerApplicationTests.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139041000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34383377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50268096" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.33002833" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5020107" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/code/DepartmentTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/CalendarDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/CalendarProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/DoctorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/HospitalDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/hospital/HospitalProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/info/InfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/info/InfoProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/reservation/ReservationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/reservation/ReservationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/BuserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/MenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/system/RoleMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/PatientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/interceptor/BaseInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/interceptor/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/ManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/code/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/code/DepartmentTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/CalendarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/DoctorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/hospital/HospitalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/info/InfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/reservation/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/BuserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/system/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/DBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/PatientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/code/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/code/DepartmentTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/CalendarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/DoctorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/info/InfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/reservation/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/DBController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/component/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/controller/FastDFSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/src/main/java/com/ices/reservation/manager/web/hospital/HospitalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesystem/src/main/java/com/ices/filesystem/FilesystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/jquery</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19310345" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 28 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19310345" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|filesystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19310345" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19310345" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
