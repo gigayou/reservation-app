@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @CrossOrigin
 @RequestMapping(value = "hospital/department")
+@Api(tags = "科室管理接口")
 public class DepartmentController extends BaseController<Department>{
 
     @Autowired

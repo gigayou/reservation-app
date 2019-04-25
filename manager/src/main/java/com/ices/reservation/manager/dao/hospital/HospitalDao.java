@@ -18,4 +18,11 @@ public interface HospitalDao extends BaseDao<Hospital> {
             method = "getHospitalDepartmentType"
     )
     List<Map> getHospitalDepartmentType(String hospitalId);
+
+
+    @SelectProvider(
+            type = HospitalProvider.class,
+            method = "getHospitalByManagerId"
+    )
+    List<Map> getHospitalByManagerId(String userId);
 }

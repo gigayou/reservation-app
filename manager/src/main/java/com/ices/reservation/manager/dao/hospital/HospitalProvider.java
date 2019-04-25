@@ -14,4 +14,13 @@ public class HospitalProvider {
         log.info("SQL: {}", sql);
         return sql.toString();
     }
+
+    public String getHospitalByManagerId(String userId) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("select * from hospital_info where hospital_manager = ")
+                .append("'").append(userId).append("'");
+        String sql = sb.toString();
+        log.info("SQL: {}", sql);
+        return sql;
+    }
 }

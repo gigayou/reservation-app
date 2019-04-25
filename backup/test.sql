@@ -98,7 +98,7 @@ CREATE TABLE `buser_info` (
 
 LOCK TABLES `buser_info` WRITE;
 /*!40000 ALTER TABLE `buser_info` DISABLE KEYS */;
-INSERT INTO `buser_info` VALUES ('123123','王五',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('12345','张三',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('admin','admin',1,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital1','医院管理员1',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital2','医院管理员2',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital3','医院管理员',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital4','医院管理员4',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital6','医院管理员6',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('laojia','老贾',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('niyisheng','倪医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('tanqingshan','谭青山',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('tanyisheng','谭医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('wangyisheng','王医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('yijinglong','衣景龙',3,'4QrcOUm6Wau+VuBX8g+IPg==');
+INSERT INTO `buser_info` VALUES ('123123','王五',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('12345','张三',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('admin','admin',1,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital2','医院管理员2',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital3','医院管理员',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital4','医院管理员4',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('hospital6','医院管理员6',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('laojia','老贾',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('niyisheng','倪医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('tanqingshan','谭青山',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('tanyisheng','谭医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('Test','Test',2,'4QrcOUm6Wau+VuBX8g+IPg=='),('wangyisheng','王医生',3,'4QrcOUm6Wau+VuBX8g+IPg=='),('yijinglong','衣景龙',3,'4QrcOUm6Wau+VuBX8g+IPg==');
 /*!40000 ALTER TABLE `buser_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -197,9 +197,7 @@ CREATE TABLE `hospital_info` (
   `hospital_manager` varchar(16) NOT NULL,
   `hospital_name` varchar(20) NOT NULL,
   `hospital_grade` char(1) NOT NULL,
-  `province` int(11) DEFAULT NULL,
-  `city` int(11) DEFAULT NULL,
-  `county` int(11) DEFAULT NULL,
+  `hospital_addr` varchar(50) NOT NULL,
   `detail_addr` varchar(50) DEFAULT NULL,
   `hospital_phone` varchar(100) DEFAULT NULL,
   `introduction` varchar(500) DEFAULT NULL,
@@ -215,7 +213,7 @@ CREATE TABLE `hospital_info` (
 
 LOCK TABLES `hospital_info` WRITE;
 /*!40000 ALTER TABLE `hospital_info` DISABLE KEYS */;
-INSERT INTO `hospital_info` VALUES ('15258550066627608716','hospital1','北京市第二医院','1',12,1201,120102,'北京市','12341234123','12341234123423113424','/group1/M00/00/00/wKg0iFrzxeeARPVjAACphU4xFC0771.jpg','2'),('1525867142963469194','hospital2','北京协和医院','0',11,1101,110101,'五道口xx号','18888888888','北京最厉害的医院','/group1/M00/00/00/wKg0iFry_FuABN58AAByNE8VmdI726.jpg;/group1/M00/00/00/wKg0iFry_F-AfWNpAABmg4-GZq4348.jpg','1'),('15260912372301888815','hospital3','威海市立医院','2',37,3710,371002,'环翠区xx号','86798888','威海最好的医院','/group1/M00/00/00/wKg0iFr1yBuAMFJgAACphU4xFC0374.jpg;/group1/M00/00/00/wKg0iFr1yTaASpw6AABoAAYUDyY830.jpg','1'),('15260934159908507567','hospital4','潍坊市第一医院','1',37,3707,370701,'sadsa','86795555','阿斯顿撒','/group1/M00/00/00/wKg0iFr1zBCAOZzCAACFnsL8TTY073.jpg;/group1/M00/00/00/wKg0iFr1zBSAHXK2AACoOSGuTp0146.jpg','1'),('15260949510347212269','hospital6','青岛市第一医院','1',37,3702,370201,'啊实打实','86798888','阿斯顿撒旦是','/group1/M00/00/00/wKg0iFr10oiANw6yAABoAAYUDyY938.jpg;/group1/M00/00/01/wKg0iFr10omAVSsSAACFnsL8TTY441.jpg;/group1/M00/00/01/wKg0iFr10oyAWZftAAB7C8U6Ybc979.jpg;/group1/M00/00/01/wKg0iFr10o6AVhzhAACoOSGuTp0015.jpg;/group1/M00/00/01/wKg0iFr10pCAPnH8AAB6ycLlbRA385.jpg','1');
+INSERT INTO `hospital_info` VALUES ('15258550066627608716','hospital2','北京市第二医院','0','北京市北京市东城区','北京市','12341234123','12341234123423113424','/group1/M00/00/00/wKg0iFrzxeeARPVjAACphU4xFC0771.jpg','1'),('1525867142963469194','hospital2','北京协和医院','0','北京市北京市东城区','五道口xx号','18888888888','北京最厉害的医院','/group1/M00/00/00/wKg0iFry_FuABN58AAByNE8VmdI726.jpg;/group1/M00/00/00/wKg0iFry_F-AfWNpAABmg4-GZq4348.jpg','0'),('15260912372301888815','hospital3','威海市立医院','2','','环翠区xx号','86798888','威海最好的医院','/group1/M00/00/00/wKg0iFr1yBuAMFJgAACphU4xFC0374.jpg;/group1/M00/00/00/wKg0iFr1yTaASpw6AABoAAYUDyY830.jpg','0'),('15260934159908507567','hospital4','潍坊市第一医院','1','','sadsa','86795555','阿斯顿撒','/group1/M00/00/00/wKg0iFr1zBCAOZzCAACFnsL8TTY073.jpg;/group1/M00/00/00/wKg0iFr1zBSAHXK2AACoOSGuTp0146.jpg','0'),('15260949510347212269','hospital6','青岛市第一医院','1','','啊实打实','86798888','阿斯顿撒旦是','/group1/M00/00/00/wKg0iFr10oiANw6yAABoAAYUDyY938.jpg;/group1/M00/00/01/wKg0iFr10omAVSsSAACFnsL8TTY441.jpg;/group1/M00/00/01/wKg0iFr10oyAWZftAAB7C8U6Ybc979.jpg;/group1/M00/00/01/wKg0iFr10o6AVhzhAACoOSGuTp0015.jpg;/group1/M00/00/01/wKg0iFr10pCAPnH8AAB6ycLlbRA385.jpg','0'),('1555425252103409871','hospital2','Ghyh','0','河南省郑州市中原区',NULL,NULL,NULL,NULL,'0');
 /*!40000 ALTER TABLE `hospital_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -394,4 +392,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-31  0:23:43
+-- Dump completed on 2019-04-16 22:35:48

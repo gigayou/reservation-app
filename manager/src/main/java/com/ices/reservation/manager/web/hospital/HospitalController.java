@@ -19,4 +19,9 @@ public class HospitalController extends BaseController<Hospital> {
     public Object getHostpitalDept(@RequestBody Hospital hospital){
         return hospitalService.getHostpitalDept(hospital);
     }
+
+    @RequestMapping(value = "/queryByManagerId", method = {RequestMethod.POST})
+    public Object queryByManagerId(@RequestParam String userId) {
+        return hospitalService.queryByManagerId(userId);
+    }
 }

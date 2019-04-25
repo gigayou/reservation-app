@@ -29,4 +29,11 @@ public class HospitalService extends BaseService<Hospital> {
         List<Map> re = hospitalDao.getHospitalDepartmentType(hospital.getHospitalId());
         return re == null ? ReturnUtil.error("查询失败") : ReturnUtil.success(re);
     }
+
+    public Object queryByManagerId(String userId) {
+        if (StringUtils.isEmpty(userId))
+            return ReturnUtil.error("管理员id不能为空");
+        List<Map> re = hospitalDao.getHospitalByManagerId(userId);
+        return re == null ? ReturnUtil.error("查询失败") : ReturnUtil.success(re);
+    }
 }

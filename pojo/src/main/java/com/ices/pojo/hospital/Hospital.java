@@ -25,21 +25,9 @@ public class Hospital extends Page{
     @NotEmpty(message = "请选择医院级别")
     @Column(column = "hospital_grade")
     public String hospitalGrade;
-//    @NotEmpty(message = "请选择医院地址")
-//    @Column(column = "province")
-//    public String province;
-//    @RefColumn(refSql = "(select address_name from addr_code where address_id = province)")
-//    public String provinceName;
-//    @NotEmpty(message = "请选择医院地址")
-//    @Column(column = "city")
-//    public String city;
-//    @RefColumn(refSql = "(select address_name from addr_code where address_id = city)")
-//    public String cityName;
-//    @NotEmpty(message = "请选择医院地址")
-//    @Column(column = "county")
-//    public String county;
-//    @RefColumn(refSql = "(select address_name from addr_code where address_id = county)")
-//    public String countyName;
+    @NotEmpty(message = "请选择医院地址")
+    @Column(column = "hospital_addr")
+    public String hospitalAddr;
     @Column(column = "detail_addr")
     public String detailAddr;
     @Column(column = "hospital_phone")
