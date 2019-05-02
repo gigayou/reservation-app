@@ -7,10 +7,6 @@ import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @Author: ny
- * @Date: Created in 10:19 2018/3/27 0027
- */
 @RestController
 @CrossOrigin
 @RequestMapping("system/buser")

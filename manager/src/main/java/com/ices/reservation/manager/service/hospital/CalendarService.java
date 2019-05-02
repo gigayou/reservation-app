@@ -22,7 +22,7 @@ public class CalendarService extends BaseService<Calendar> {
     protected void beforeAdd(Calendar clz) throws RuntimeException {
         clz.setAdmissionId(IdUtil.generateId());
         clz.setRemainingNum(clz.getAdmissionNum());
-        clz.setIsValid(1);
+//        clz.setIsValid(0);
     }
 
     public Object getPageListByCondition(Calendar calendar){
