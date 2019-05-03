@@ -73,4 +73,21 @@ public class CalendarProvider {
         this.log.info("SQL: {}", sql);
         return sql.toString();
     }
+
+    public String getListByDateRange(Map<String, Object> params) {
+        Calendar calendar = (Calendar) params.get("calendar");
+        String begin = (String) params.get("begin");
+        String end = (String) params.get("end");
+
+        StringBuilder sql = new StringBuilder("select a.admission_id as admissionId, a.hospital_id as hospitalId," +
+                "a.department_id as departmentId, a.doctor_id as doctorId, a.admission_date as admissionDate," +
+                "a.admission_period as admissionPeriod, a.admission_num as admissionNum, a.remaining_num as remainingNum," +
+                "a.is_valid as isValid, d.doctor_name as doctorName from admission_calendar a,hospital_info h, doctor_info d " +
+                "where a.hospital_id = h.hospital_id and d.doctor_id = a.doctor_id ");
+        sql.append(" and a.hospital_id='" + calendar.getHospitalId() + "' ");
+        sql.append(" and a.doctor_id ='" + calendar.getDoctorId() + "' ");
+        sql.append(" and a.admission_date between '" + begin + "' and '" + end + "'");
+        this.log.info("SQL: {}", sql);
+        return sql.toString();
+    }
 }

@@ -35,4 +35,10 @@ public class CalendarController extends BaseController<Calendar> {
     public Object getSelectCalendar(@RequestBody Calendar calendar){
         return calendarService.getSelectCalendar(calendar);
     }
+
+    @RequestMapping(value = "getlistbydateragne", method = {RequestMethod.POST})
+    public Object getListByDateRange(@RequestBody Map map) {
+        return calendarService.getListByDateRange(ClassUtil.mapToClass((Map) map.get("calendar"), Calendar.class),
+                (String)map.get("begin"), (String)map.get("end"));
+    }
 }

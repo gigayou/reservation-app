@@ -51,4 +51,18 @@ public class CalendarService extends BaseService<Calendar> {
         List<Map> re = calendarDao.getSelectCalendar(calendar);
         return re == null ? ReturnUtil.error("查询失败") : ReturnUtil.success(re);
     }
+
+    public Object getListByDateRange(Calendar calendar, String begin, String end) {
+        if(StringUtils.isEmpty(calendar.getHospitalId())){
+            return ReturnUtil.error("请传入医院ID");
+        }
+        if(StringUtils.isEmpty(calendar.getDoctorId())){
+            return ReturnUtil.error("请传入医生ID");
+        }
+        if(StringUtils.isEmpty(begin) || StringUtils.isEmpty(end)){
+            return ReturnUtil.error("必须传入时间");
+        }
+        List<Map> re = calendarDao.getListByDateRange(calendar, begin, end);
+        return re == null ? ReturnUtil.error("查询失败") : ReturnUtil.success(re);
+    }
 }
